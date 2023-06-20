@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="stl.css">
+    <script src="https://kit.fontawesome.com/490c17faa1.js" crossorigin="anonymous"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+<form action="facility.php">
+            <h1>Services</h1>  
+            <div class="input-field" id="username">
+                <i class="fa-solid fa-user"  > pet owner:</i><br><br>
+                <input type="text" name="username" required><br><br>
+            </div>
+            <div class="input-field" id="pname">
+                <i class="fa-solid fa-user"> Name of the pet : </i><br><br>
+                <input type="text" name="pname" required><br><br>
+            </div>
+            <div class="input-field" id="datetime">
+              <i class="fa-solid fa-calendar-days">date and time:</i><br><br>
+              <input type="datetime-local" id="datetime" name="datetime">
+            </div>
+<br>
+<h2>select the service</h2><br>
+  <div>
+  <input type="radio" id="control_01" name="facility" value="boarding" checked>
+  <label for="control_01">
+    <h2>Boarding</h2>
+    <p> Comfortable and safe accommodations for pets, with adequate space for sleeping, playing, and relaxing.    
+        Regular feeding and watering schedules, with appropriate food and water bowls provided.</p>
+  </label>
+</div>
+<div>
+  <input type="radio" id="control_02" name="facility" value="day_care">
+  <label for="control_02">
+    <h2>Day care</h2>
+    <p>Regular exercise and playtime with staff or other dogs, depending on the dog’s temperament and preferences.
+        Adequate supervision to ensure that dogs are safe and not engaging in aggressive behavior towards each other.</p>
+  </label>
+</div>
+<div>
+  <input type="radio" id="control_03" name="facility" value="day_out">
+  <label for="control_03">
+    <h2>Day out</h2>
+    <p>Access to outdoor areas for exercise and potty breaks, with secure fencing to prevent escape.from 8pm to 10pm morning walk.
+        A secure and reliable system for tracking each dog’s medication, feeding schedule, and medical history.
+    </p>
+  </label>
+</div>
+<div>
+    <input type="radio" id="control_05" name="facility" value="pool_session">
+    <label for="control_05">
+      <h2>pool session</h2>
+      <p>Dogs should be brushed to remove excess hair and use the showers before participating in the session. Their toys should also be scrubbed 
+        before permitting their use in the pool. Use of competent instructors to 
+        deliver or supervise the delivery of sessions by trainee instructors.  
+      </p>
+    </label>
+  </div>
+
+<div>
+  <input type="radio" id="control_06" name="facility" value="grooming">
+  <label for="control_06">
+    <h2>Grooming</h2>
+    <p>This include bath, brushed, nail cut, ears cleaned, hair removed, skin checkedd, dog clipping</p>
+  </label>
+</div>
+<br>
+
+<div class="btn-field">
+    <input type="submit" value="Submit">
+</div>
+
+</form>
+</body>
+</html>
